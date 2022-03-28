@@ -1,3 +1,88 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1477840539360-4a1d23071046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+  background-size: contain;
+  color: antiquewhite;
+  font-family: monospace;
+}
+
+header {
+  font-size: 3em;
+  margin-top: 25px;
   text-align: center;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 3rem;
+  margin: 50px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.planets-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.mission-card {
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid antiquewhite;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: 900;
+  height: 250px;
+  justify-content: space-evenly;
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.6) rotate(360deg);
+  transition-duration: 1.5s;
+}
+
+.mission-card:hover {
+  cursor: help;
+  transform: scale(1.2);
+}
+
+.planet-card:hover {
+  transform: scale(1.3);
+}
+
+.planet-name {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.planet-card img {
+  width: 100%;
+}
+
+.missions-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 25%;
+  width: 100%;
 }
