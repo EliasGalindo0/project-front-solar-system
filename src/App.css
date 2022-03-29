@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1477840539360-4a1d23071046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+  background-attachment: fixed;
+  background-image: url('https://images.unsplash.com/photo-1477840539360-4a1d23071046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
   background-size: contain;
   color: antiquewhite;
   font-family: monospace;
@@ -41,8 +42,8 @@ h2 {
 
 .mission-card {
   align-items: center;
-  border-radius: 15px;
   border: 1px solid antiquewhite;
+  border-radius: 15px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -82,7 +83,7 @@ img:hover {
 .missions-parent {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   height: 25%;
+  justify-content: center;
   width: 100%;
 }
